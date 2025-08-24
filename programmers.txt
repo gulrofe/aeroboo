@@ -2,7 +2,6 @@ Instructions:
 ==================================================================================
 
 This is a video game intended for children aged 7 to 10, video game enthusiasts, and programmers interested in game development.Game objective: Blow up the vulture. If you blow it up, you win the game. To blow it up, you need to click on the cannon screen. It’s a game with very low difficulty.
-
 ...................................................................................
 
 It is necessary install dependencies, before of run the program.
