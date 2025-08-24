@@ -1,0 +1,51 @@
+Instructions:
+==================================================================================
+
+This is a video game intended for children aged 7 to 10, video game enthusiasts, and programmers interested in game development.
+
+...................................................................................
+
+It is necessary install dependencies, before of run the program.
+
+In the Fedora:
+
+sudo dnf install gcc SDL2-devel SDL2_image-devel SDL2_mixer-devel
+
+In the Ubuntu or Debian:
+
+sudo apt update
+sudo apt install build-essential libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev
+....................................................................................
+
+It is a C program using SDL2. Initializes SDL, creates a window and renderer, loads an image as a texture, and displays it in a continuous loop until the user closes the window. Upon termination, all allocated resources are freed. Base language: C; Graphics library: SDL2; Nature: mixed program (C + SDL).
+
+Verify that all these files are in the same directory before running the program:
+
+aeroboo
+bu1.png
+bu2.png
+cano1.png
+cano2.png
+cano3.png
+canon.mp3
+explosion.mp3
+explosion.png
+flap.mp3
+splash.png
+stay-with-me-384602.mp3
+urubu.png
+vulture.mp3
+win.mp3
+winner.png
+
+To compile the program, use a Bash terminal and type:
+
+gcc aeroboo.c -o aeroboo $(sdl2-config --cflags --libs) -lSDL2_image -lSDL2_mixer
+
+After this procedure, type in the bash terminal:
+
+./aeroboo
+
+-----------------------------------------------------------------------------------
+
+PROGRAMMERS: The full program code, named aeroboo.c, is available to all programmers in the main directory.
