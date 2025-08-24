@@ -1,0 +1,40 @@
+Instructions:
+==================================================================================
+
+It is necessary install dependencies, before of run the program.
+
+In the Fedora:
+
+sudo dnf install gcc SDL2-devel SDL2_image-devel SDL2_mixer-devel
+
+In the Ubuntu or Debian:
+
+sudo apt update
+sudo apt install build-essential libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev
+....................................................................................
+
+Verify that all these files are in the same directory before running the program:
+
+aeroboo
+bu1.png
+bu2.png
+cano1.png
+cano2.png
+cano3.png
+canon.mp3
+explosion.mp3
+explosion.png
+flap.mp3
+splash.png
+stay-with-me-384602.mp3
+urubu.png
+vulture.mp3
+win.mp3
+winner.png
+
+To run the program, use a Bash terminal and type:
+
+./aeroboo
+
+------------------------------------------------------------------------------------
+
