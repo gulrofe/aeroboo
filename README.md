@@ -1,6 +1,6 @@
 # aeroboo
 
-Video Game programmed and idealized by Felix Rodrigues Gulias - 2025 - Brazil
+**Video game created and programmed by Felix Rodrigues Gulias – 2025 – Brazil.**
 
-C program using SDL2. Base language: C; Graphics library: SDL2; Nature: mixed program (C + SDL).
+Developed in **C** using the **SDL2** graphics library. Base language: C; Graphics library: SDL2; Nature: mixed program (C + SDL).
 
